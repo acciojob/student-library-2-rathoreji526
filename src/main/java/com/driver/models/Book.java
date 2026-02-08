@@ -38,6 +38,13 @@ public class Book {
 
     public Book() {
     }
+    public Book(String name, Genre genre, Author author) {
+        this.name = name;
+        this.genre = genre;
+        this.author = author;
+        this.available = true; // by default book is available
+    }
+
 
     public int getId() {
         return id;
